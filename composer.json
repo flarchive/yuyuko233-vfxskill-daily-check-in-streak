@@ -1,0 +1,53 @@
+{
+    "name": "yuyuko233/vfxskill-daily-check-in-streak",
+    "description": "Daily check-in with configurable streak rewards for Flarum.",
+    "type": "flarum-extension",
+    "keywords": [
+        "flarum",
+        "flarum-extension",
+        "check-in",
+        "streak",
+        "money"
+    ],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuyuko233\\VfxskillDailyCheckInStreak\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yuyuko233\\VfxskillDailyCheckInStreak\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ziven",
+            "role": "Original author"
+        },
+        {
+            "name": "Yuyuko233",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/popoopendoor/vfxskill-daily-check-in-streak"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "VFXSkill Daily Check In Streak",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-calendar-check",
+                "backgroundColor": "#0f766e",
+                "color": "#ffffff"
+            }
+        }
+    }
+}

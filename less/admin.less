@@ -1,0 +1,65 @@
+.VfxCheckinRewardRules-header {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.VfxCheckinRewardRules-table {
+  border: 1px solid var(--control-bg);
+  border-radius: 6px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.VfxCheckinRewardRules-row {
+  align-items: end;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr) auto;
+  padding: 10px 12px;
+}
+
+.VfxCheckinRewardRules-row + .VfxCheckinRewardRules-row {
+  border-top: 1px solid var(--control-bg);
+}
+
+.VfxCheckinRewardRules-row--head {
+  align-items: center;
+  background: var(--body-bg);
+  color: var(--muted-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.VfxCheckinRewardRules-field {
+  display: grid;
+  gap: 6px;
+}
+
+.VfxCheckinRewardRules-field > span {
+  color: var(--muted-color);
+  display: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .VfxCheckinRewardRules-header,
+  .VfxCheckinRewardRules-row {
+    display: grid;
+  }
+
+  .VfxCheckinRewardRules-row {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+
+  .VfxCheckinRewardRules-row--head {
+    display: none;
+  }
+
+  .VfxCheckinRewardRules-field > span {
+    display: block;
+  }
+}

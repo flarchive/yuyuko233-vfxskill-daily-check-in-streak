@@ -1,0 +1,30 @@
+vfxskill-checkin-streak:
+  forum:
+    check-in: 签到
+    checked-in-day: 已签到 {count} 天
+    checked-in-days: 已签到 {count} 天
+    check-in-success: 签到成功
+    check-in-failed: 签到失败
+    try-again-later: 请稍后再试
+  admin:
+    settings:
+      auto-check-in: 自动签到
+      auto-check-in-delay: 自动签到延迟（毫秒）
+      timezone: 时区偏移
+      streak-reward-rules: 连续签到奖励规则
+      streak-reward-rules-help: 实际奖励按当前连续天数命中的最高档位发放。
+      add-reward-rule: 添加档位
+      remove-reward-rule: 删除
+      reward-rule-day: 连续天数
+      reward-rule-amount: 奖励金额
+      reward-rule-actions: 操作
+      reward-money-requirement: 需要 <code>antoinefr/flarum-ext-money</code> 扩展
+      check-in-success-prompt-type: 签到成功提示类型
+      check-in-success-prompt-text: 签到成功提示文字
+      check-in-success-prompt-reward-text: 签到成功奖励文字
+      check-in-success-prompt-example-text: '样例：您已连续签到 [days] 天'
+      check-in-success-prompt-example-reward-text: '样例：获得 [reward] 奖励'
+      allow-check-in: 允许签到
+      None: 无
+      Alert: 提示框
+      Modal: 对话框
