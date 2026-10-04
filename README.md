@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of yuyuko233/vfxskill-daily-check-in-streak.** Not for installation: use [Packagist](https://packagist.org/packages/yuyuko233/vfxskill-daily-check-in-streak) or the [upstream repository](https://github.com/popoopendoor/vfxskill-daily-check-in-streak).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/yuyuko233-vfxskill-daily-check-in-streak/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^1.8`
+**1** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/yuyuko233-vfxskill-daily-check-in-streak/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^1.8`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-05-31 | `^1.8` | [Browse](https://github.com/flarchive/yuyuko233-vfxskill-daily-check-in-streak/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/yuyuko233-vfxskill-daily-check-in-streak.json](https://github.com/flarchive/archive-index/blob/main/packages/yuyuko233-vfxskill-daily-check-in-streak.json)
 
